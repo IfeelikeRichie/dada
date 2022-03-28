@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* border: 1px solid red ; */
+}
+body{
+    background-color: rgb(0, 53, 43);
+    color: whitesmoke;
+    font-family: sans-serif;
+    min-height: 95vh;
+    display: block;
+
+
+}
+.fflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ___________Menu de barra lateral___________ */
+.sidebarmenu{
+    position: fixed ;
+    left: 0;
+    width: 45px;
+    background: rgb(0, 167, 55);
+    margin-left: 20px;
+    box-shadow: 0px 5px 5px 0px .75 gainsboro;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-content: space-around;
+    transition: all .5s ease-in-out;
+
+
+}
+.sidebarmenu .top{
+    margin: 10px 10px 0 10px;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-content: space-around;
+
+}
+.sidebarmenu .bottom{
+    margin: 0px 10px 10px 10px;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-content: space-around;
+}
+.itemlist{
+    min-width: 10px;
+}
+.itemlist .iconlist{
+    width: 40px;
+    height: 40px;
+    background: greenyellow;
+    border-radius: 25px;
+}
+.iconlist img{
+    width: 40px;
+    height: 40px;
+
+}
+.textlist{
+    display: none;
+    color: #272727;
+
+}
+
+/* ------------Main Content---------- */
+
+.maincontent{
+    min-height: 90vh;
+    min-width: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imgs/compacheco_principal_img.png);
+
+}
+.maincontent .left{
+    min-height: 45vh;
+    min-width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontent .left img{
+
+    float: left;
+    width: 80%;
+}
+.maincontent .right{
+    min-height: 45vh;
+    min-width: 45vh;
+}
+
+
+/* --------Content---------- */
+
+.content{
+    display: block;
+}
+.content .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .left{
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h2{
+    font-size: 70px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+.left .cannabis{
+    text-align: right;
+    font-size: 30px;
+}
+.bottom .right{
+    width: 45vh;
+}
